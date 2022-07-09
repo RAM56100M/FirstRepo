@@ -13,19 +13,20 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -34,5 +35,85 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/async-http-client-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/async-http-client-netty-utils-2.12.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/auto-common-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/auto-service-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/auto-service-annotations-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/byte-buddy-1.12.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/checker-qual-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/error_prone_annotations-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/failsafe-3.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/guava-31.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/jcommander-1.82.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/jtoml-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-buffer-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-codec-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-codec-http-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-codec-socks-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-common-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-handler-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-handler-proxy-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-reactive-streams-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-resolver-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-transport-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-transport-classes-epoll-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-transport-classes-kqueue-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-transport-native-epoll-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-transport-native-kqueue-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/netty-transport-native-unix-common-4.1.76.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-api-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-context-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-exporter-logging-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-common-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-logs-1.13.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-metrics-1.13.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-sdk-trace-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/opentelemetry-semconv-1.13.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-api-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-api-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-chrome-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-chrome-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-chromium-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-chromium-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v85-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v85-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v99-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v99-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v100-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v100-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v101-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-devtools-v101-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-edge-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-edge-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-firefox-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-firefox-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-http-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-http-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-ie-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-ie-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-java-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-java-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-json-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-json-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-opera-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-opera-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-remote-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-remote-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-safari-driver-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-safari-driver-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-support-4.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/selenium-support-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAM V. MARSHIVANE/Desktop/YTSELENIUM/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
