@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.Enabled"/>
+      <class name="testng.TimeOut"/>
+      <class name="testng.InvocationCount"/>
+      <class name="testng.DependsOnMethods"/>
+      <class name="testng.Annotations"/>
+      <class name="testng.AssertionsPriority"/>
+      <class name="testng.Priority"/>
+      <class name="testng.FirstTestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

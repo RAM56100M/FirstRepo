@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="UITesting.ErrorMSGColour"/>
+      <class name="testNG.Enable"/>
+      <class name="HARD_assertions.AssertEquals"/>
+      <class name="ddf.WritedatainExcel"/>
+      <class name="testNG.DependsOnMethods"/>
+      <class name="practice.SearchALetter"/>
+      <class name="testNG.Discription"/>
+      <class name="testNG.AlphaPriority"/>
+      <class name="UITesting.Iframe"/>
+      <class name="testNG.Assertions1"/>
+      <class name="HARD_assertions.AssertTrue"/>
+      <class name="testNG.Priority"/>
+      
+      <class name="HARD_assertions.AssertNotEqual"/>
+      <class name="alert.SimpleAlert"/>
+      <class name="testNG.InvocationCount"/>
+      <class name="practice.SortNumbers"/>
+      <class name="UITesting.Alignment"/>
+      <class name="testNG.CrossbrowserTesting"/>
+      <class name="alert.InstantAlert"/>
+      <class name="actionsClass.Slider"/>
+      <class name="testNG.VerifyURL"/>
+      <class name="actionsClass.DragDrop"/>
+      <class name="listeners.Listener2"/>
+      <class name="listeners.Listener1"/>
+      <class name="windowHandling.MouseHour"/>
+      <class name="alert.AcceptCancel"/>
+      <class name="testNG.TimeOut"/>
+      <class name="testNG.Prioriti"/>
+      <class name="actionsClass.DragAround"/>
+      <class name="Popups.gettext"/>
+      <class name="ddf.ExcelRead"/>
+      <class name="actionsClass.DoubleClick"/>
+      <class name="testNG.Paralllel"/>
+      <class name="UITesting.DropandDrag"/>
+      <class name="testNG.Groups"/>
+      <class name="UITesting.ScrollUpandDown"/>
+      <class name="pom.LoginTest"/>
+      <class name="Casting.Test"/>
+      <class name="UITesting.FooterLinks"/>
+      <class name="actionsClass.RightClick"/>
+      <class name="UITesting.CheckboxStatus"/>
+      <class name="practice.ChartoString"/>
+      <class name="Popups.Javascript"/>
+      <class name="Popups.FileUploadPopup"/>
+      <class name="windowHandling.GetwindowHandle"/>
+      <class name="UITesting.IsLinkorNot"/>
+      <class name="Soft_assert.AssertEquals"/>
+      <class name="listeners.listener"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Regression -->
