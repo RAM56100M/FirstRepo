@@ -33,7 +33,7 @@ public class PropertiesFileReading {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(8000);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
 		driver.findElement(By.xpath("//input[@placeholder=\"Username\"]")).sendKeys(prop.getProperty("Username"));
 System.out.println(PropertiesFileReading.prop);
 		driver.findElement(By.xpath("//*[@name='password']")).sendKeys(prop.getProperty("Password"));

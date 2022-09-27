@@ -14,15 +14,17 @@ public class AutoSuggesionList {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.co.in/");
-		driver.findElement(By.xpath("//*[@type=\"text\"]")).sendKeys("Selenium");
+		driver.findElement(By.xpath("//*[@type=\"text\"]")).sendKeys("microsoft");
 		Thread.sleep(3000);
-		List<WebElement> allsug = driver.findElements(By.xpath("//*[contains(text(),'selenium')]"));
+		List<WebElement> allsug = driver.findElements(By.xpath("//*[starts-with(text(),'microsoft')]"));
+		//List<WebElement> allsug = driver.findElements(By.xpath("//*[@class='aajZCb']"));
+		
 		int count = allsug.size();
 		System.out.println(count);
 		for(WebElement sug:allsug) {
 			String text=sug.getText();
 			System.out.println(text);
-			if(text.equalsIgnoreCase("selenium tutorial")) {
+			if(text.equalsIgnoreCase("microsoft 365 login")) {
 				sug.click();
 				break;
 			}

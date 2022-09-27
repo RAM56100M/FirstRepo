@@ -11,10 +11,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrokenLinks {
+	static WebDriver driver;
 public static void main(String[] args) throws IOException {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\RAM V. MARSHIVANE\\OneDrive\\Desktop\\chrome103\\chromedriver.exe");
-	WebDriver driver= new ChromeDriver();
-	//WebDriver driver= new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver",
+			"C:\\Users\\RAM V. MARSHIVANE\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("http://www.deadlinkcity.com/");
 	List<WebElement> links=driver.findElements(By.tagName("a"));

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.Paralllel">
+      <class name="windowHandling.Iterators">
         <methods>
-          <include name="FirefoxTest"/>
+          <include name="HandleAlertEnteringValue"/>
         </methods>
-      </class> <!-- testNG.Paralllel -->
+      </class> <!-- windowHandling.Iterators -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
