@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		add=add+ a[i];
 	}System.out.println(add);
 		
-		
+//Perform addition
 	
 }
 }
